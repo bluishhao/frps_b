@@ -4,7 +4,7 @@ sudo git clone https://github.com/bluishhao/myddns.git
 tar -zxvf frp_0.44.0_linux_amd64.tar.gz
 cp ./frps_b/frps.ini ./frp_0.44.0_linux_amd64/frps.ini
 cd myddns
-tar -zxvf cloudflare-ddns-client.tar cloudflare-ddns-client
+tar -zxvf cloudflare-ddns-client.tar
 cd cloudflare-ddns-client
 sudo make install
 cloudflare-ddns --configure
